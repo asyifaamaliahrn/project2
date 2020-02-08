@@ -39,7 +39,7 @@ body {
             <td><?= $data["nama"];?></td>
             <td><?= $data["email"];?></td>
             <td>
-                <a href="delete.php">Delete</a> |
+                <a href="delete.php?id=<?= $data['id']; ?>">Delete</a> |
                 <a href="#">Update</a>
             </td>
         </tr>
