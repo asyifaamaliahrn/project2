@@ -7,9 +7,9 @@
     <center><u><h1>MEMBER C-SHOP</h1></u></center>
 <style>
 body {
-        background-color: #BC8F8F;
-        background-size: cover;
-        background-attachment: fixed;
+    background-color: #FFE4B5;
+    background-size: cover;
+    background-attachment: fixed;
 }
 </style> 
 
@@ -40,7 +40,7 @@ body {
             <td><?= $data["email"];?></td>
             <td>
                 <a href="delete.php?id=<?= $data['id']; ?>">Delete</a> |
-                <a href="#">Update</a>
+                <a href="edit.php?id=<?= $data['id']; ?>">Update</a>
             </td>
         </tr>
 

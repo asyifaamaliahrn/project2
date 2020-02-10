@@ -6,13 +6,13 @@ if(isset($_GET['id'])){
 
 	if($query){
 		echo "<script>
-			alert('Berhasil menghapus data pesanan!');
+			alert('Berhasil menghapus data member!');
 			window.location = 'index.php';
 			</script>";exit;
 
 		}else{
 		echo "<script>
-			alert('Gagal menghapus data pesanan!');
+			alert('Gagal menghapus data member!');
 			window.location = 'index.php';
 			</script>";exit;
 		}
